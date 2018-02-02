@@ -1,0 +1,16 @@
+.single-image {
+  img {
+    display: block;
+    max-width: 100%;
+    margin-bottom: 0.25em;
+  }
+
+  figcaption {
+    font-size: 0.85em;
+    color: $gray;
+  }
+
+  &.inset {
+    @extend %shift-3;
+  }
+}

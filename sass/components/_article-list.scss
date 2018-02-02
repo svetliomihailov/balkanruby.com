@@ -1,0 +1,17 @@
+.article-list {
+  @extend %shift-1;
+
+  h3 {
+    line-height: 1.2;
+    margin-bottom: 0.5em;
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  .meta {
+    margin-bottom: 1em;
+    font-size: 0.85em;
+  }
+}

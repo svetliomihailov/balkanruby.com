@@ -1,0 +1,22 @@
+.cards {
+  .card {
+    text-decoration: none;
+
+    img {
+      display: block;
+      margin-bottom: 0.5em;
+    }
+
+    .content {
+      h4 {
+        margin-bottom: 0.5em;
+      }
+
+      p {
+        font-size: 0.85em;
+        line-height: 1.4;
+        margin-bottom: 0;
+      }
+    }
+  }
+}

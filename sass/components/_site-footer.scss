@@ -1,0 +1,24 @@
+.site-footer {
+  padding: 4em 0;
+  font-size: 0.85em;
+
+  a {
+    // color: $white;
+  }
+
+  .footer-cols {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .center-col {
+    a {
+      display: inline-block;
+      margin-right: 1em;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}

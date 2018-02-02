@@ -1,0 +1,39 @@
+.quote {
+  @extend %shift-1;
+  position: relative;
+
+  &:before {
+    content: '“';
+    position: absolute;
+    top: -0.3em;
+    left: -0.65em;
+    font-family: 'Barlow', serif;
+    font-size: 10em;
+    color: #000;
+    opacity: 0.1;
+    z-index: 1;
+  }
+
+  blockquote {
+    position: relative;
+    padding: 0;
+    border: 0;
+    font-family: 'Roboto', serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: $true-black;
+    z-index: 2;
+  }
+
+  p {
+    margin-bottom: 0.25em;
+    font-size: 1.999em;
+    line-height: 1.4;
+  }
+
+  .author {
+    font-size: 1.414em;
+    font-weight: 300;
+    color: #aaa;
+  }
+}

@@ -1,0 +1,9 @@
+.text {
+  @extend %shift-2;
+
+  p:last-child,
+  ul:last-child,
+  ol:last-child {
+    margin-bottom: 0;
+  }
+}

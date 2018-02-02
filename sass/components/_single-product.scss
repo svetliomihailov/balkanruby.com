@@ -1,0 +1,30 @@
+.single-product {
+}
+
+.product-description {
+  h1 {
+    margin-bottom: 0.25em;
+    font-size: 1.999em;
+  }
+
+  .price {
+    display: block;
+    margin-bottom: 1em;
+  }
+
+  .actions {
+    margin: 2em 0;
+  }
+
+  .price {
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    color: $gray;
+
+    &.old {
+      margin-right: 0.5em;
+      color: $lighter-gray;
+      text-decoration: line-through;
+    }
+  }
+}

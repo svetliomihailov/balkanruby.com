@@ -1,0 +1,16 @@
+.navigation {
+  padding: 2em 0;
+  font-family: 'Roboto', sans-serif;
+
+  a {
+    display: inline-block;
+    margin-right: 2em;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+
+    &:hover,
+    &.current {
+      border-color: $black;
+    }
+  }
+}
