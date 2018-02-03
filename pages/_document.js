@@ -45,6 +45,7 @@ export default class MyDocument extends Document {
           {this.helmetJsx}
           {this.helmetHeadComponents}
 
+          <meta content="width=device-width, initial-scale=1.0" name="viewport" />
           <link rel="stylesheet" type="text/css" href="/static/css/application.css" />
 
           <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`} />
