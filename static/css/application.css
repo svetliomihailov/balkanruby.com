@@ -806,9 +806,7 @@ table {
   background-color: #efefef; }
 
 .site-header {
-  display: flex;
-  padding: .5em 0;
-  justify-content: space-between; }
+  padding: .5em 0; }
   .site-header .logo {
     position: relative;
     top: 6px; }
@@ -823,6 +821,13 @@ table {
       font-weight: 500; }
       .site-header .lead-navigation a:last-child {
         margin-right: 0; }
+  @media (max-width: 939px) {
+    .site-header {
+      text-align: center; } }
+  @media (min-width: 940px) {
+    .site-header {
+      display: flex;
+      justify-content: space-between; } }
 
 .dark-bg {
   color: #fff; }
@@ -1565,5 +1570,15 @@ button.swiper-pagination-bullet {
 
 .newsletter {
   text-align: center; }
+
+@media (max-width: 939px) {
+  body {
+    font-size: 16px; }
+    body h1 {
+      font-size: 2.827em; }
+    body h2 {
+      font-size: 1.999em; }
+    body h3 {
+      font-size: 1.414em; } }
 
 /*# sourceMappingURL=application.css.map */

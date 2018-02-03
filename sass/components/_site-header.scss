@@ -3,9 +3,7 @@
 }
 
 .site-header {
-  display: flex;
   padding: .5em 0;
-  justify-content: space-between;
 
   .logo {
     position: relative;
@@ -25,5 +23,14 @@
 
       &:last-child { margin-right: 0; }
     }
+  }
+
+  @include bp($bp-mobile) {
+    text-align: center;
+  }
+
+  @include bp($bp-desktop) {
+    display: flex;
+    justify-content: space-between;
   }
 }
