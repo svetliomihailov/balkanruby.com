@@ -1,7 +1,7 @@
 import Helmet from 'react-helmet';
 
 import Layout from '../../layouts/Default';
-import Container from '../../docs/Container';
+import Container from '../../documentation/Container';
 import Slider from '../../patterns/Slider';
 
 export default () => (

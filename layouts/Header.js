@@ -1,5 +1,5 @@
 import Helmet from 'react-helmet';
-import Container from '../docs/Container';
+import Container from '../documentation/Container';
 
 export default () => (
   <div className="site-header-wrapper">

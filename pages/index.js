@@ -1,5 +1,5 @@
 import Layout from '../layouts/Landing';
-import Container from '../docs/Container';
+import Container from '../documentation/Container';
 import ArticleList from '../patterns/ArticleList';
 import LeadImageDark from '../patterns/LeadImageDark';
 import Text from '../patterns/Text';

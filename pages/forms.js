@@ -1,6 +1,6 @@
-import Layout from '../docs/Layout';
-import Title from '../docs/Title';
-import Pattern from '../docs/Pattern';
+import Layout from '../documentation/Layout';
+import Title from '../documentation/Title';
+import Pattern from '../documentation/Pattern';
 
 export default () => (
   <Layout>

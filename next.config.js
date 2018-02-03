@@ -2,11 +2,9 @@ module.exports = {
   exportPathMap() {
     return {
       '/': { page: '/' },
-      '/typography': { page: '/typography' },
-      '/forms': { page: '/forms' },
-      '/components': { page: '/components' },
-      '/pages': { page: '/pages' },
-      '/post': { page: '/post' },
+      '/blog/announcement': { page: '/blog/announcement' },
+      '/blog/cfp-time': { page: '/blog/cfp-time' },
+      '/blog/introducing-generator': { page: '/blog/introducing-generator' },
     };
   },
 };

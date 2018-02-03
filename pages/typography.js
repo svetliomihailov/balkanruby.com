@@ -1,5 +1,5 @@
-import Layout from '../docs/Layout';
-import Title from '../docs/Title';
+import Layout from '../documentation/Layout';
+import Title from '../documentation/Title';
 
 export default () => (
   <Layout>
