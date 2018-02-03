@@ -5,9 +5,7 @@
 
   .center-col {
     a {
-      display: inline-block;
       text-decoration: none;
-      margin-right: 2em;
 
       &:hover { text-decoration: underline; }
 
@@ -17,7 +15,22 @@
     }
   }
 
+  @include bp($bp-mobile) {
+    .center-col {
+      margin: 2em 0;
+
+      a { display: block; }
+    }
+  }
+
   @include bp($bp-desktop) {
+    .center-col {
+      a {
+        display: inline-block;
+        margin-right: 2em;
+      }
+    }
+
     .footer-cols {
       display: flex;
       justify-content: space-between;

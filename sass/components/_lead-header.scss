@@ -1,0 +1,33 @@
+.lead-header {
+  position: relative;
+  padding: 4em 0 6em;
+  text-align: center;
+  background-color: #efefef;
+
+  p { margin-bottom: 2.5em; }
+
+  .hero {
+    position: relative;
+    z-index: 2;
+  }
+
+  .video-container {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+  }
+
+  video {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+  }
+}

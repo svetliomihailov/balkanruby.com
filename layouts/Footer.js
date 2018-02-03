@@ -5,7 +5,7 @@ export default () => (
         <div className="left-col">&copy; 2017. Neuevents</div>
         <div className="center-col">
           <a href="http://berlincodeofconduct.org/">Code of conduct</a>
-          <a href="http://twitter.com/balkanruby">@balkanruby</a>
+          <a href="/sponsors">Partnership opportunities</a>
           <a href="mailto:hi@balkanruby.com?subject=Get in touch">Contact us</a>
         </div>
         <div className="right-col">
