@@ -30,4 +30,10 @@
     right: 0;
     width: 100%;
   }
+
+  @include bp($bp-mobile) {
+    background-color: #fcd846;
+
+    video { display: none; }
+  }
 }

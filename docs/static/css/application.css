@@ -796,6 +796,11 @@ table {
     left: 0;
     right: 0;
     width: 100%; }
+  @media (max-width: 939px) {
+    .lead-header {
+      background-color: #fcd846; }
+      .lead-header video {
+        display: none; } }
 
 .site-header-wrapper {
   background-color: #efefef; }
