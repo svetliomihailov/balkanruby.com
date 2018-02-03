@@ -362,6 +362,7 @@ table {
   .article-title h1 {
     line-height: 1.1; }
   .article-title .meta {
+    margin-bottom: 2.5em;
     font-size: 0.85em;
     font-weight: 400; }
 
@@ -714,7 +715,10 @@ table {
   text-align: center; }
   .site-footer .center-col a {
     display: inline-block;
-    margin-right: 1em; }
+    text-decoration: none;
+    margin-right: 2em; }
+    .site-footer .center-col a:hover {
+      text-decoration: underline; }
     .site-footer .center-col a:last-child {
       margin-right: 0; }
   @media (min-width: 940px) {
@@ -760,15 +764,45 @@ table {
   .slider:hover .swiper-button-next, .slider:hover .swiper-button-prev {
     opacity: 1; } }
 
+.lead-header {
+  position: relative;
+  padding: 4em 0 6em;
+  text-align: center;
+  background-color: #efefef; }
+  .lead-header p {
+    margin-bottom: 2.5em; }
+  .lead-header .hero {
+    position: relative;
+    z-index: 2; }
+  .lead-header .video-container {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1; }
+  .lead-header video {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%; }
+
+.site-header-wrapper {
+  background-color: #efefef; }
+
 .site-header {
   display: flex;
-  padding: 1em 0;
+  padding: .5em 0;
   justify-content: space-between; }
   .site-header .logo {
     position: relative;
-    top: 3px; }
+    top: 6px; }
     .site-header .logo img {
-      height: 50px; }
+      height: 40px; }
   .site-header .lead-navigation {
     padding: 1em 0; }
     .site-header .lead-navigation a {
@@ -792,6 +826,10 @@ table {
 
 .green-bg {
   background-color: #26c9a3; }
+
+.dark-bg {
+  background-color: #262626;
+  color: #fff; }
 
 .blue-bg {
   background-color: #214e66;

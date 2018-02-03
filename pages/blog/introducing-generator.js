@@ -1,9 +1,15 @@
+import Helmet from 'react-helmet';
+
 import Layout from '../../layouts/Default';
 import Container from '../../docs/Container';
 import Slider from '../../patterns/Slider';
 
 export default () => (
   <Layout>
+    <Helmet>
+      <title>Introducing our venue – Generator Sofia | Balkan Ruby</title>
+    </Helmet>
+
     <Container theme="blank" spacing="none">
       <div className="container">
         <div className="article-title">

@@ -3,14 +3,13 @@
   font-size: 0.85em;
   text-align: center;
 
-  a {
-    // color: $white;
-  }
-
   .center-col {
     a {
       display: inline-block;
-      margin-right: 1em;
+      text-decoration: none;
+      margin-right: 2em;
+
+      &:hover { text-decoration: underline; }
 
       &:last-child {
         margin-right: 0;

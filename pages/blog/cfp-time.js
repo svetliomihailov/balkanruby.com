@@ -1,8 +1,14 @@
+import Helmet from 'react-helmet';
+
 import Layout from '../../layouts/Default';
 import Container from '../../docs/Container';
 
 export default () => (
   <Layout>
+    <Helmet>
+      <title>Call for papers | Balkan Ruby</title>
+    </Helmet>
+
     <Container theme="blank" spacing="none">
       <div className="container">
         <div className="article-title">

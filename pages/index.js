@@ -1,5 +1,4 @@
 import Layout from '../layouts/Landing';
-
 import Container from '../docs/Container';
 import ArticleList from '../patterns/ArticleList';
 import LeadImageDark from '../patterns/LeadImageDark';
@@ -9,36 +8,18 @@ import SectionTitle from '../patterns/SectionTitle';
 export default () => (
   <Layout>
     <Container theme="blank" spacing="none">
-      <div className="lead-image height-large">
-        <div className="overlay" style={{ opacity: 0.4 }} />
-
-        <div className="bg-image">
-          <img src="/static/images/homepage-mobile.jpg" alt="" />
-          <img src="/static/images/homepage.jpg" alt="" />
+      <div className="lead-header">
+        <div className="hero">
+          <img src="/static/assets/balkanruby-header-logo.svg" alt="Balkan Ruby" className="logo" />
+          <p>25 – 26 May 2018, Sofia, Bulgaria</p>
+          <a href="https://goo.gl/forms/uvxE2CR7I3fwYCtl2" className="btn-primary lg">Submit a talk</a>
         </div>
 
-        <div className="grid">
-          <div className="content-container align-center">
-            <div className="container">
-              <div className="headings">
-                <img
-                  src="/static/assets/balkanruby-header-logo-white.svg"
-                  alt=""
-                  className="logo"
-                />
-                <p className="inverted-text-bg">25 – 26 May 2018, Sofia, Bulgaria</p>
-              </div>
-
-              <div className="btn-wrapper">
-                <a
-                  href="https://goo.gl/forms/uvxE2CR7I3fwYCtl2"
-                  className="btn-primary lg"
-                >
-                  Submit a talk
-                </a>
-              </div>
-            </div>
-          </div>
+        <div className="video-container">
+          <video autoPlay loop poster="/static/images/landing-video/Wall-Sketching.jpg">
+            <source src="/static/images/landing-video/Wall-Sketching.mp4" type="video/mp4" />
+            <source src="/static/images/landing-video/Wall-Sketching.webm" type="video/webm" />
+          </video>
         </div>
       </div>
     </Container>
