@@ -2,8 +2,8 @@ export default () => (
   <div className="container">
     <div className="cards">
       <div className="grid">
-        {[1, 2].map(() => (
-          <div className="half">
+        {[1, 2].map((idx) => (
+          <div key={idx} className="half">
             <a href="#" className="card">
               <img src="/static/images/juan-davila-153912.jpg" alt="" />
               <div className="content">

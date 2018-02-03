@@ -1,3 +1,4 @@
+import Layout from '../docs/Layout';
 import Title from '../docs/Title';
 import Pattern from '../docs/Pattern';
 
@@ -18,10 +19,27 @@ import Cards from '../patterns/Cards';
 import CardsTwo from '../patterns/CardsTwo';
 import ArticleList from '../patterns/ArticleList';
 import Pagination from '../patterns/Pagination';
+import Slider from '../patterns/Slider';
 
 export default () => (
-  <div>
+  <Layout>
     <Title>Pattern Library</Title>
+
+    <Pattern title="Slider" description="Simple slider gallery">
+      <Slider>
+        <Slider.Slide>
+          <img src="http://placehold.it/1920x1080" />
+        </Slider.Slide>
+
+        <Slider.Slide>
+          <img src="http://placehold.it/1920x1080" />
+        </Slider.Slide>
+
+        <Slider.Slide>
+          <img src="http://placehold.it/1920x1080" />
+        </Slider.Slide>
+      </Slider>
+    </Pattern>
 
     <Pattern title="Article Title" description="Used in the blog">
       <ArticleTitle />
@@ -90,5 +108,5 @@ export default () => (
     <Pattern title="Pagination" description="">
       <Pagination />
     </Pattern>
-  </div>
+  </Layout>
 );

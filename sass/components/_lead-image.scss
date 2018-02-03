@@ -6,7 +6,7 @@
   .bg-image {
     img {
       display: block;
-      max-width: 100%;
+      width: 100%;
     }
   }
 
@@ -70,8 +70,32 @@
     overflow: hidden;
   }
 
+  &.height-small {
+    height: 300px;
+    overflow: hidden;
+  }
+
   &.height-medium {
     height: 500px;
     overflow: hidden;
+  }
+
+  &.height-large {
+    max-height: 100vh;
+    overflow: hidden;
+  }
+
+  @include bp($bp-mobile) {
+    .bg-image {
+      img:first-child { display: block; }
+      img:last-child { display: none; }
+    }
+  }
+
+  @include bp($bp-desktop) {
+    .bg-image {
+      img:first-child { display: none; }
+      img:last-child { display: block; }
+    }
   }
 }

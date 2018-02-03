@@ -1,6 +1,6 @@
 import Document, { Head, Main, NextScript } from 'next/document';
-import Header from '../docs/Header';
-import Footer from '../docs/Footer';
+
+const GA_TRACKING_ID = 'UA-107279956-1';
 
 export default class MyDocument extends Document {
   render() {
@@ -8,16 +8,22 @@ export default class MyDocument extends Document {
       <html lang="en">
         <Head>
           <title>Balkan Ruby Styleguide</title>
-          <link
-            rel="stylesheet"
-            type="text/css"
-            href="/static/css/application.css"
+          <link rel="stylesheet" type="text/css" href="/static/css/application.css" />
+
+          <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`} />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments)};
+                gtag('js', new Date());
+                gtag('config', '${GA_TRACKING_ID}');
+              `,
+            }}
           />
         </Head>
         <body>
-          <Header />
           <Main />
-          <Footer />
           <NextScript />
         </body>
       </html>

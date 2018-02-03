@@ -1,7 +1,8 @@
+import Layout from '../docs/Layout';
 import Title from '../docs/Title';
 
 export default () => (
-  <div>
+  <Layout>
     <Title>Pages</Title>
 
     <div className="container">
@@ -21,5 +22,5 @@ export default () => (
         </li>
       </ul>
     </div>
-  </div>
+  </Layout>
 );

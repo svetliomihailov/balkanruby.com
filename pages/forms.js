@@ -1,8 +1,9 @@
+import Layout from '../docs/Layout';
 import Title from '../docs/Title';
 import Pattern from '../docs/Pattern';
 
 export default () => (
-  <div>
+  <Layout>
     <Title>Form Elements</Title>
 
     <Pattern title="Buttons" description="">
@@ -85,5 +86,5 @@ export default () => (
         </div>
       </div>
     </Pattern>
-  </div>
+  </Layout>
 );

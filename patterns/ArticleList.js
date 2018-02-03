@@ -2,8 +2,8 @@ export default () => (
   <div className="container">
     <div className="grid">
       <div className="article-list">
-        {[1, 2, 3].map(() => (
-          <div className="article">
+        {[1, 2, 3].map((idx) => (
+          <div key={idx} className="article">
             <h3>
               <a href="#">
                 Lorem ipsum dolor sit nostrum necessitatibus ipsum dolor

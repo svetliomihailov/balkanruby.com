@@ -1,14 +1,10 @@
 .site-footer {
   padding: 4em 0;
   font-size: 0.85em;
+  text-align: center;
 
   a {
     // color: $white;
-  }
-
-  .footer-cols {
-    display: flex;
-    justify-content: space-between;
   }
 
   .center-col {
@@ -19,6 +15,13 @@
       &:last-child {
         margin-right: 0;
       }
+    }
+  }
+
+  @include bp($bp-desktop) {
+    .footer-cols {
+      display: flex;
+      justify-content: space-between;
     }
   }
 }

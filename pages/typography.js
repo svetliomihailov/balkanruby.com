@@ -1,7 +1,8 @@
+import Layout from '../docs/Layout';
 import Title from '../docs/Title';
 
 export default () => (
-  <div>
+  <Layout>
     <Title>Typography</Title>
 
     <div className="container">
@@ -188,5 +189,5 @@ export default () => (
         Ex.
       </p>
     </div>
-  </div>
+  </Layout>
 );

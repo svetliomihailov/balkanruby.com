@@ -18,3 +18,30 @@
 @import 'full-page-product';
 @import 'spotlight';
 @import 'site-footer';
+@import 'slider';
+
+.site-header {
+  display: flex;
+  padding: 1em 0;
+  justify-content: space-between;
+
+  .logo {
+    position: relative;
+    top: 3px;
+
+    img { height: 50px; }
+  }
+
+  .lead-navigation {
+    padding: 1em 0;
+
+    a {
+      display: inline-block;
+      margin-right: 2em;
+      text-decoration: none;
+      font-weight: 500;
+
+      &:last-child { margin-right: 0; }
+    }
+  }
+}
