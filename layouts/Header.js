@@ -12,7 +12,8 @@ export default () => (
 
           <nav className="lead-navigation">
             <a href="/">Blog</a>
-            <a href="https://goo.gl/forms/uvxE2CR7I3fwYCtl2" target="_blank">Submit talk</a>
+            <a href="https://goo.gl/forms/uvxE2CR7I3fwYCtl2" target="_blank">Submit your talk</a>
+            <a href="/sponsors">Become a partner</a>
           </nav>
         </div>
       </div>
