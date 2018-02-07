@@ -577,6 +577,7 @@ table {
   text-decoration: none; }
   .cards .card img {
     display: block;
+    margin: 0 auto;
     margin-bottom: 0.5em;
     border-radius: 50%;
     border: 1px solid #bbb;
@@ -584,7 +585,9 @@ table {
     width: 15em;
     height: 15em; }
   .cards .card .content h4 {
-    margin-bottom: 0.5em; }
+    margin: 0 auto;
+    margin-bottom: 0.5em;
+    vertical-align: middle; }
   .cards .card .content p {
     font-size: 0.85em;
     line-height: 1.4;
