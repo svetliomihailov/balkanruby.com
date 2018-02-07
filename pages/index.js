@@ -24,6 +24,18 @@ export default () => (
       </div>
     </Container>
 
+    <Container theme="pink-bg" spacing="spacing-both" id="newsletter">
+      <div className="container">
+        <div className="grid">
+          <div className="shift-2">
+            <div className="section-title">
+              <h2>CFP closes on 14th of February, 2018!</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </Container>
+
     <Container theme="blank" spacing="spacing-both">
       <div className="container">
         <div className="grid">
