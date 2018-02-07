@@ -577,7 +577,12 @@ table {
   text-decoration: none; }
   .cards .card img {
     display: block;
-    margin-bottom: 0.5em; }
+    margin-bottom: 0.5em;
+    border-radius: 50%;
+    border: 1px solid #bbb;
+    vertical-align: middle;
+    width: 15em;
+    height: 15em; }
   .cards .card .content h4 {
     margin-bottom: 0.5em; }
   .cards .card .content p {
@@ -1567,6 +1572,9 @@ button.swiper-pagination-bullet {
 .swiper-container-coverflow .swiper-wrapper {
   /* Windows 8 IE 10 fix */
   -ms-perspective: 1200px; }
+
+.darkside > * {
+  filter: invert(100%); }
 
 .newsletter {
   text-align: center; }
