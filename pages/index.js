@@ -96,6 +96,74 @@ export default () => (
       </div>
     </Container>
 
+    <Container theme="blank" spacing="spacing-both">
+      <div className="container">
+        <div className="grid">
+          <div className="shift-2">
+            <div className="section-title">
+              <h2>Speakers</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </Container>
+
+    <Container theme="blank" spacing="spacing-bottom">
+      <div className="container">
+        <div className="cards">
+          <div className="grid">
+            <div key="1" className="third">
+              <a href="https://zachholman.com" className="card">
+                <img src="/static/images/speakers/holman.png" alt="Zach Holman photo" />
+                <div className="content">
+                  <h4>Zach Holman</h4>
+                  <p>
+                    Zach Holman is a developer living in San Francisco. He
+                    joined GitHub in 2010 as one of their first engineering
+                    hires, and helped build and grow their product and culture
+                    over five years. Currently he’s the founder and CEO of {' '}
+                    <a href="http://during.com">During</a>, a new calendar to help you during your day. He also
+                    advises startups, including <a href="https://gitlab.com">GitLab</a> and {' '}
+                    <a href="https://dockbit.com">Dockbit</a>.
+                  </p>
+                </div>
+              </a>
+            </div>
+
+            <div key="2" className="third">
+              <a href="http://rmosolgo.github.io/" className="card">
+                <img src="/static/images/speakers/rmosolgo.png" alt="Robert Mosolgo photo" />
+                <div className="content">
+                  <h4>Robert Mosolgo</h4>
+                  <p>
+                    Robert is a Ruby developer at GitHub, focused on the
+                    GraphQL API. In his free time, he likes spending time with
+                    his family, reading about programming language design, and
+                    doing upholstery projects.
+                  </p>
+                </div>
+              </a>
+            </div>
+
+            <div key="3" className="third">
+              <a href="https://apotonick.wordpress.com" className="card">
+                <img src="/static/images/speakers/nick.jpg" alt="Nick Sutterer photo" />
+                <div className="content">
+                  <h4>Nick Sutterer</h4>
+                  <p>
+                    Whenever Open-Source meets deep and profound debates about
+                    architecting software, and there's free beers involved,
+                    Nick Sutterer must be just around the corner. Say "Hi!" to
+                    him, he loves people.
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </Container>
+
     <Container theme="purple-bg" spacing="spacing-both" id="newsletter">
       <div className="container">
         <div className="grid">

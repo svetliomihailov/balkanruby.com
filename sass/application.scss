@@ -6,6 +6,10 @@
 @import 'documentation/module';
 @import 'vendor/module';
 
+.darkside > * {
+  filter: invert(100%);
+}
+
 .newsletter {
   text-align: center;
 }

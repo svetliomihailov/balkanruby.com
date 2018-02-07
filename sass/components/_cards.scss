@@ -5,6 +5,11 @@
     img {
       display: block;
       margin-bottom: 0.5em;
+      border-radius: 50%;
+      border: 1px solid #bbb;
+      vertical-align: middle;
+      width: 15em;
+      height: 15em;
     }
 
     .content {

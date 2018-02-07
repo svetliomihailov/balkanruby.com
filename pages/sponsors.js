@@ -16,9 +16,20 @@ export default () => (
           <div className="text">
             <h1>Partnership opportunities</h1>
 
-            <p><strong>Balkan Ruby</strong> is a brand new conference, dedicated to Ruby and satellite technologies.</p>
-            <p>We aim to introduce the local communities to each other and invite companies and developers from all over Europe to visit the Balkan region, learn new technologies and share ideas with us.</p>
-            <p>We expect about 150 attendees from all around Europe, the majority of whom are Ruby and JavaScript developers.</p>
+            <p>
+              <strong>Balkan Ruby</strong> is a brand new conference,
+              dedicated to Ruby and satellite technologies.
+            </p>
+            <p>
+              We aim to introduce the local communities to each other and
+              invite companies and developers from all over Europe to visit the
+              Balkan region, learn new technologies and share ideas with
+              us.
+            </p>
+            <p>
+              We expect about 150 international attendees, the majority of whom
+              are Ruby and JavaScript developers.
+            </p>
 
             <br/>
             <a href="/static/files/balkan_ruby_packages.pdf" className="btn-primary" target="_blank">View the packages</a>
@@ -28,6 +39,5 @@ export default () => (
         </div>
       </div>
     </Container>
-
   </Layout>
 );
