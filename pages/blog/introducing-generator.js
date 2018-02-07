@@ -7,13 +7,13 @@ import Slider from '../../patterns/Slider';
 export default () => (
   <Layout>
     <Helmet>
-      <title>Introducing our venue – Generator Sofia | Balkan Ruby</title>
+      <title>The Venue | Balkan Ruby</title>
     </Helmet>
 
     <Container theme="blank" spacing="none">
       <div className="container">
         <div className="article-title">
-          <h1>Introducing our venue – Generator Sofia</h1>
+          <h1>The Venue</h1>
           <div className="meta">
             2 February 2018 //{' '}
             <a href="http://twitter.com/vestimir" target="_blank">
@@ -29,11 +29,12 @@ export default () => (
         <div className="grid">
           <div className="text">
             <p>
-            Today we are excited to reveal the location for <strong>Balkan Ruby</strong>! The conference will be held on <strong>25th and 26th of May at Generator Sofia</strong>.
+              Today we are excited to reveal the venue for <strong>Balkan Ruby</strong>!
+              The conference will be held on <strong>25th and 26th of May</strong> at <strong>Generator Sofia</strong>.
             </p>
 
             <p>
-            <a href="http://generatorsofia.com" target="_blank">Generator</a> opened its hall last year in the renovated Vitosha Factory. It is a playground for collaboration, inspiration and experience sharing between creatives, businesses and the public sector. Over the past few months Generator has hosted several workshops and meetups and we really liked the vibe of the place. It is a bright hall with lots of natural light, huge screen and functional, cozy interior.
+              <a href="http://generatorsofia.com" target="_blank">Generator</a> opened its hall last year in the renovated Vitosha Factory. It is a playground for collaboration, inspiration and experience sharing between creatives, businesses and the public sector. Over the past few months Generator has hosted several workshops and meetups and we really liked the vibe of the place. It is a bright hall with lots of natural light, huge screen and functional, cozy interior.
             </p>
           </div>
         </div>

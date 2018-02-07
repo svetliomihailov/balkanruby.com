@@ -42,7 +42,7 @@ export default () => (
           <div className="article-list">
             <div className="article">
               <h3>
-                <a href="/blog/introducing-generator">Introducing our venue – Generator Sofia</a>
+                <a href="/blog/introducing-generator">The Venue</a>
               </h3>
               <div className="meta">
                 by{' '}
@@ -51,10 +51,8 @@ export default () => (
                 </a>
               </div>
               <p>
-              Today we are excited to reveal the location for Balkan Ruby! The conference will be held on 25th and 26th of May at Generator Sofia.
-              </p>
-              <p>
-              Learn more about our venue and the surrounding area.
+                Today we are excited to reveal the venue for <strong>Balkan Ruby</strong>!
+                The conference will be held on <strong>25th and 26th of May</strong> at <strong>Generator Sofia</strong>.
               </p>
             </div>
 
@@ -69,7 +67,8 @@ export default () => (
                 </a>
               </div>
               <p>
-              The Balkans are such a nice place to be and we can help you get here for free through our <a href="https://goo.gl/forms/uvxE2CR7I3fwYCtl2" targe="_blank">Call for Papers</a>!
+                The Balkans are such a nice place to be and we can help you get
+                here for free through our <a href="https://goo.gl/forms/uvxE2CR7I3fwYCtl2" targe="_blank">Call for Papers</a>!
               </p>
             </div>
 
