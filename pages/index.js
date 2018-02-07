@@ -51,8 +51,9 @@ export default () => (
                 </a>
               </div>
               <p>
-                Today we are excited to reveal the venue for <strong>Balkan Ruby</strong>!
-                The conference will be held on <strong>25th and 26th of May</strong> at <strong>Generator Sofia</strong>.
+                Today we are excited to reveal the venue for Balkan Ruby! The
+                conference will be held on 25th and 26th of May at Generator
+                Sofia.
               </p>
             </div>
 
