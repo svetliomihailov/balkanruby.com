@@ -13,7 +13,6 @@ class BuyerForm extends React.Component {
         <Field label="First name" value={buyer.first_name} onChange={first_name => onChange('first_name', first_name)} required />
         <Field label="Last name" value={buyer.last_name} onChange={last_name => onChange('last_name', last_name)} required />
         <Field label="Email" value={buyer.email} onChange={email => onChange('email', email)} required type="email" />
-        <Field label="Country" value={buyer.country} onChange={country => onChange('country', country)} required />
 
         <Checkbox label="This is a company" value={buyer.isCompany} onChange={isCompany => onChange('isCompany', isCompany)} />
 
