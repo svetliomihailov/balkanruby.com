@@ -125,10 +125,10 @@ export default () => (
         <div className="cards">
           <div className="grid">
             <div key="1" className="third">
-              <a href="https://zachholman.com" className="card">
+              <div className="card">
                 <img src="/static/images/speakers/holman.png" alt="Zach Holman photo" />
                 <div className="content">
-                  <h4>Zach Holman</h4>
+                  <h4><a href="https://zachholman.com">Zach Holman</a></h4>
                   <p>
                     Zach Holman is a developer living in San Francisco. He
                     joined GitHub in 2010 as one of their first engineering
@@ -139,14 +139,14 @@ export default () => (
                     <a href="https://dockbit.com">Dockbit</a>.
                   </p>
                 </div>
-              </a>
+              </div>
             </div>
 
             <div key="2" className="third">
-              <a href="http://rmosolgo.github.io/" className="card">
+              <div className="card">
                 <img src="/static/images/speakers/rmosolgo.png" alt="Robert Mosolgo photo" />
                 <div className="content">
-                  <h4>Robert Mosolgo</h4>
+                  <h4><a href="http://rmosolgo.github.io/">Robert Mosolgo</a></h4>
                   <p>
                     Robert is a Ruby developer at GitHub, focused on the
                     GraphQL API. In his free time, he likes spending time with
@@ -154,14 +154,14 @@ export default () => (
                     doing upholstery projects.
                   </p>
                 </div>
-              </a>
+              </div>
             </div>
 
             <div key="3" className="third">
-              <a href="https://apotonick.wordpress.com" className="card">
+              <div className="card">
                 <img src="/static/images/speakers/nick.jpg" alt="Nick Sutterer photo" />
                 <div className="content">
-                  <h4>Nick Sutterer</h4>
+                  <h4><a href="https://apotonick.wordpress.com">Nick Sutterer</a></h4>
                   <p>
                     Whenever Open-Source meets deep and profound debates about
                     architecting software, and there's free beers involved,
@@ -169,7 +169,7 @@ export default () => (
                     him, he loves people.
                   </p>
                 </div>
-              </a>
+              </div>
             </div>
           </div>
         </div>
