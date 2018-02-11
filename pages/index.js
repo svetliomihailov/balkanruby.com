@@ -4,6 +4,8 @@ import ArticleList from '../patterns/ArticleList';
 import LeadImageDark from '../patterns/LeadImageDark';
 import Text from '../patterns/Text';
 import SectionTitle from '../patterns/SectionTitle';
+import Speaker from '../patterns/Speaker';
+import Speakers from '../patterns/Speakers';
 
 export default () => (
   <Layout>
@@ -108,7 +110,7 @@ export default () => (
       </div>
     </Container>
 
-    <Container theme="blank" spacing="spacing-both">
+    <Container id="speakers" theme="blank" spacing="spacing-both" container>
       <div className="container">
         <div className="grid">
           <div className="shift-2">
@@ -120,61 +122,43 @@ export default () => (
       </div>
     </Container>
 
-    <Container theme="blank" spacing="spacing-bottom">
-      <div className="container">
-        <div className="cards">
-          <div className="grid">
-            <div key="1" className="third">
-              <div className="card">
-                <img src="/static/images/speakers/holman.png" alt="Zach Holman photo" />
-                <div className="content">
-                  <h4><a href="https://zachholman.com">Zach Holman</a></h4>
-                  <p>
-                    Zach Holman is a developer living in San Francisco. He
-                    joined GitHub in 2010 as one of their first engineering
-                    hires, and helped build and grow their product and culture
-                    over five years. Currently he’s the founder and CEO of {' '}
-                    <a href="http://during.com">During</a>, a new calendar to help you during your day. He also
-                    advises startups, including <a href="https://gitlab.com">GitLab</a> and {' '}
-                    <a href="https://dockbit.com">Dockbit</a>.
-                  </p>
-                </div>
-              </div>
-            </div>
+    <Speakers theme="blank" spacing="spacing-bottom">
+      <Speaker
+        name="Zach Holman"
+        website="https://zachholman.com"
+        avatar="/static/images/speakers/holman.png"
+      >
+        Zach Holman is a developer living in San Francisco. He
+        joined GitHub in 2010 as one of their first engineering
+        hires, and helped build and grow their product and culture
+        over five years. Currently he’s the founder and CEO of {' '}
+        <a href="http://during.com">During</a>, a new calendar to help you during your day. He also
+        advises startups, including <a href="https://gitlab.com">GitLab</a> and {' '}
+        <a href="https://dockbit.com">Dockbit</a>.
+      </Speaker>
 
-            <div key="2" className="third">
-              <div className="card">
-                <img src="/static/images/speakers/rmosolgo.png" alt="Robert Mosolgo photo" />
-                <div className="content">
-                  <h4><a href="http://rmosolgo.github.io/">Robert Mosolgo</a></h4>
-                  <p>
-                    Robert is a Ruby developer at GitHub, focused on the
-                    GraphQL API. In his free time, he likes spending time with
-                    his family, reading about programming language design, and
-                    doing upholstery projects.
-                  </p>
-                </div>
-              </div>
-            </div>
+      <Speaker
+        name="Robert Mosolgo"
+        website="http://rmosolgo.github.io/"
+        avatar="/static/images/speakers/rmosolgo.png"
+      >
+        Robert is a Ruby developer at GitHub, focused on the
+        GraphQL API. In his free time, he likes spending time with
+        his family, reading about programming language design, and
+        doing upholstery projects.
+      </Speaker>
 
-            <div key="3" className="third">
-              <div className="card">
-                <img src="/static/images/speakers/nick.jpg" alt="Nick Sutterer photo" />
-                <div className="content">
-                  <h4><a href="https://apotonick.wordpress.com">Nick Sutterer</a></h4>
-                  <p>
-                    Whenever Open-Source meets deep and profound debates about
-                    architecting software, and there's free beers involved,
-                    Nick Sutterer must be just around the corner. Say "Hi!" to
-                    him, he loves people.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </Container>
+      <Speaker
+        name="Nick Sutterer"
+        website="https://apotonick.wordpress.com"
+        avatar="/static/images/speakers/nick.jpg"
+      >
+        Whenever Open-Source meets deep and profound debates about
+        architecting software, and there's free beers involved,
+        Nick Sutterer must be just around the corner. Say "Hi!" to
+        him, he loves people.
+      </Speaker>
+    </Speakers>
 
     <Container theme="purple-bg" spacing="spacing-both" id="newsletter">
       <div className="container">
