@@ -31,7 +31,7 @@ export default class MyDocument extends Document {
   get helmetJsx () {
     return (<Helmet
       htmlAttributes={{lang: 'en'}}
-      title='Balkan Ruby – 25-26 May; Sofia, Bulgaria',
+      title='Balkan Ruby – 25-26 May; Sofia, Bulgaria'
       meta={[
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { property: 'og:title', content: 'Balkan Ruby – 25-26 May; Sofia, Bulgaria' }
@@ -48,7 +48,7 @@ export default class MyDocument extends Document {
 
           <meta content="width=device-width, initial-scale=1.0" name="viewport" />
           <link rel="stylesheet" type="text/css" href="/static/css/application.css" />
-          <link rel="shortcut icon" href="favicon.png">
+          <link rel="shortcut icon" href="favicon.png" />
 
           <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`} />
           <script
