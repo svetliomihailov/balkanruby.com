@@ -31,10 +31,10 @@ export default class MyDocument extends Document {
   get helmetJsx () {
     return (<Helmet
       htmlAttributes={{lang: 'en'}}
-      title='Hello next.js!'
+      title='Balkan Ruby – 25-26 May; Sofia, Bulgaria',
       meta={[
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { property: 'og:title', content: 'Hello next.js!' }
+        { property: 'og:title', content: 'Balkan Ruby – 25-26 May; Sofia, Bulgaria' }
       ]}
     />)
   }
