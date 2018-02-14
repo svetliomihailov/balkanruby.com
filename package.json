@@ -3,7 +3,7 @@
     "build-css": "node-sass-chokidar ./sass/application.scss -o ./static/css --output-style compressed --source-map true",
     "watch-css": "npm run build-css && node-sass-chokidar ./sass/application.scss -o ./static/css --watch --recursive --source-map true",
     "dev": "next",
-    "build": "next build && next export && rm -rf docs && mv out docs && cp CNAME docs/ && cp .nojekyll docs/",
+    "build": "next build && next export && rm -rf docs && mv out docs && cp CNAME .nojekyll favicon.png docs/",
     "start": "npm-run-all -p watch-css dev"
   },
   "dependencies": {
