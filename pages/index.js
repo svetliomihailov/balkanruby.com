@@ -14,7 +14,7 @@ export default () => (
         <div className="hero">
           <img src="/static/assets/balkanruby-header-logo.svg" alt="Balkan Ruby" className="logo" />
           <p>25 – 26 May 2018, Sofia, Bulgaria</p>
-          <a href="https://goo.gl/forms/uvxE2CR7I3fwYCtl2" className="btn-primary lg">Submit a talk</a>
+          <a href="#newsletter" className="btn-primary lg">Subscribe</a>
         </div>
 
         <div className="video-container">
@@ -22,18 +22,6 @@ export default () => (
             <source src="/static/images/landing-video/Wall-Sketching.mp4" type="video/mp4" />
             <source src="/static/images/landing-video/Wall-Sketching.webm" type="video/webm" />
           </video>
-        </div>
-      </div>
-    </Container>
-
-    <Container theme="pink-bg" spacing="spacing-both" id="newsletter">
-      <div className="container">
-        <div className="grid">
-          <div className="shift-2">
-            <div className="section-title">
-              <h2>CFP closes on 14th of February, 2018!</h2>
-            </div>
-          </div>
         </div>
       </div>
     </Container>
