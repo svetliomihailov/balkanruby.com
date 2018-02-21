@@ -45,10 +45,6 @@ export default () => (
 
     <PageTitle title="Speakers" />
 
-    <Text centered text="<p>Balkan Ruby is supported by these awesome companies</p>" />
-
-    <br/>
-
     <Container theme="blank" spacing="spacing-both">
       <ThumbFeed list={SPEAKERS} />
     </Container>
