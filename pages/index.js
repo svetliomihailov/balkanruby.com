@@ -6,6 +6,24 @@ import Text from '../patterns/Text';
 import SectionTitle from '../patterns/SectionTitle';
 import Speaker from '../patterns/Speaker';
 import Speakers from '../patterns/Speakers';
+import Navigation from '../patterns/Navigation';
+
+const NAV = {
+  list: [
+    {
+      label: 'Speakers',
+      link: '/speakers',
+    },
+    {
+      label: 'Partners',
+      link: '/sponsors',
+    },
+    {
+      label: 'Blog',
+      link: '/blog',
+    },
+  ],
+};
 
 export default () => (
   <Layout>
@@ -26,19 +44,87 @@ export default () => (
       </div>
     </Container>
 
-    <Container theme="blank" spacing="spacing-both">
+    <Container theme="light-bg" spacing="none">
+      <Navigation {...NAV} />
+    </Container>
+
+    <br/>
+    <br/>
+
+    <SectionTitle title="About the conference" />
+
+    <br/>
+
+    <Text centered text="<p>Balkan Ruby is a brand new conference, dedicated to Ruby and satellite technologies.</p><p>We aim to introduce the local communities to each other and invite companies and developers from all over Europe to visit the Balkan region, learn new technologies and share ideas with us.</p>" />
+
+    <br/>
+
+    <Container id="speakers" theme="blank" spacing="spacing-both" container>
       <div className="container">
         <div className="grid">
           <div className="shift-2">
             <div className="section-title">
-              <h2>Blog</h2>
+              <h2>Speakers</h2>
             </div>
           </div>
         </div>
       </div>
     </Container>
 
-    <Container theme="blank" spacing="spacing-bottom">
+    <br/>
+
+    <Speakers theme="blank" spacing="spacing-bottom">
+      <Speaker
+        name="Zach Holman"
+        website="https://zachholman.com"
+        avatar="/static/images/speakers/holman.png"
+      >
+        CEO, During
+      </Speaker>
+
+      <Speaker
+        name="Robert Mosolgo"
+        website="http://rmosolgo.github.io/"
+        avatar="/static/images/speakers/rmosolgo.png"
+      >
+        GitHub
+      </Speaker>
+
+      <Speaker
+        name="Nick Sutterer"
+        website="https://apotonick.wordpress.com"
+        avatar="/static/images/speakers/nick.jpg"
+      >
+        Trailblazer
+      </Speaker>
+
+      {[1,2,3,4,5,6,7,8,9,10,11].map((idx) =>
+        <Speaker
+          key={idx}
+          name="Coming soon"
+          website="/speakers"
+          avatar="http://placehold.it/540x540?text=TBA"
+        >
+          ...
+        </Speaker>
+      )}
+    </Speakers>
+
+    <Container theme="light-bg" spacing="spacing-both">
+      <div className="container">
+        <div className="grid">
+          <div className="shift-2">
+            <div className="section-title">
+              <br/>
+              <h2>Blog</h2>
+              <br/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </Container>
+
+    <Container theme="light-bg" spacing="spacing-bottom">
       <div className="container">
         <div className="grid">
           <div className="article-list">
@@ -97,56 +183,6 @@ export default () => (
         </div>
       </div>
     </Container>
-
-    <Container id="speakers" theme="blank" spacing="spacing-both" container>
-      <div className="container">
-        <div className="grid">
-          <div className="shift-2">
-            <div className="section-title">
-              <h2>Speakers</h2>
-            </div>
-          </div>
-        </div>
-      </div>
-    </Container>
-
-    <Speakers theme="blank" spacing="spacing-bottom">
-      <Speaker
-        name="Zach Holman"
-        website="https://zachholman.com"
-        avatar="/static/images/speakers/holman.png"
-      >
-        Zach Holman is a developer living in San Francisco. He
-        joined GitHub in 2010 as one of their first engineering
-        hires, and helped build and grow their product and culture
-        over five years. Currently he’s the founder and CEO of {' '}
-        <a href="http://during.com">During</a>, a new calendar to help you during your day. He also
-        advises startups, including <a href="https://gitlab.com">GitLab</a> and {' '}
-        <a href="https://dockbit.com">Dockbit</a>.
-      </Speaker>
-
-      <Speaker
-        name="Robert Mosolgo"
-        website="http://rmosolgo.github.io/"
-        avatar="/static/images/speakers/rmosolgo.png"
-      >
-        Robert is a Ruby developer at GitHub, focused on the
-        GraphQL API. In his free time, he likes spending time with
-        his family, reading about programming language design, and
-        doing upholstery projects.
-      </Speaker>
-
-      <Speaker
-        name="Nick Sutterer"
-        website="https://apotonick.wordpress.com"
-        avatar="/static/images/speakers/nick.jpg"
-      >
-        Whenever Open-Source meets deep and profound debates about
-        architecting software, and there's free beers involved,
-        Nick Sutterer must be just around the corner. Say "Hi!" to
-        him, he loves people.
-      </Speaker>
-    </Speakers>
 
     <Container theme="purple-bg" spacing="spacing-both" id="newsletter">
       <div className="container">

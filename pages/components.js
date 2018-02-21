@@ -20,6 +20,9 @@ import CardsTwo from '../patterns/CardsTwo';
 import ArticleList from '../patterns/ArticleList';
 import Pagination from '../patterns/Pagination';
 import Slider from '../patterns/Slider';
+import ThumbFeed from '../patterns/ThumbFeed';
+import Cta from '../patterns/Cta';
+import PartnerFeed from '../patterns/PartnerFeed';
 
 export default () => (
   <Layout>
@@ -43,6 +46,18 @@ export default () => (
 
     <Pattern title="Article Title" description="Used in the blog">
       <ArticleTitle />
+    </Pattern>
+
+    <Pattern title="Call to action" description="">
+      <Cta />
+    </Pattern>
+
+    <Pattern title="Thumb Feed" description="Used for sponsors">
+      <ThumbFeed />
+    </Pattern>
+
+    <Pattern title="Partner Feed" description="Used for sponsors">
+      <PartnerFeed />
     </Pattern>
 
     <Pattern title="Lead Image" description="">

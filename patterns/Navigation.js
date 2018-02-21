@@ -1,13 +1,31 @@
-export default () => (
+const Navigation = ({ list }) => (
   <div className="container">
     <nav className="navigation">
-      <a href="#" className="current">
-        Home
-      </a>
-      <a href="#">About</a>
-      <a href="#">Women</a>
-      <a href="#">Men</a>
-      <a href="#">Accessories</a>
+      {list.map((item, idx) =>
+        <a href={item.link}>{item.label}</a>)}
     </nav>
   </div>
 );
+
+Navigation.defaultProps = {
+  list: [
+    {
+      label: 'Item 1',
+      link: '#',
+    },
+    {
+      label: 'Item 2',
+      link: '#',
+    },
+    {
+      label: 'Item 3',
+      link: '#',
+    },
+    {
+      label: 'Item 4',
+      link: '#',
+    },
+  ],
+};
+
+export default Navigation;

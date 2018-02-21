@@ -1,10 +1,10 @@
 const Speaker = ({ name, avatar, website, children }) => (
-  <div className="third">
-    <div className="card">
-      <img src={avatar} alt={name} />
+  <div className="fourth">
+    <div className="speaker">
+      <a href="/speakers"><img src={avatar} alt={name} /></a>
       <div className="content">
         <h4>
-          <a href={website} className="card">{name}</a>
+          <a href="/speakers" className="card">{name}</a>
         </h4>
         <p>{children}</p>
       </div>

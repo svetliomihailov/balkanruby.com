@@ -1,0 +1,28 @@
+.speakers {
+  .speaker {
+    text-decoration: none;
+    margin-bottom: 1em;
+
+    a { text-decoration: none; }
+
+    img {
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 0.5em;
+      border-radius: 50%;
+      width: 200px;
+
+    }
+
+    .content {
+      text-align: center;
+      padding-top: 1em;
+
+      h4 {
+        margin-bottom: 0.25em;
+      }
+
+      p { margin-bottom: 0; }
+    }
+  }
+}

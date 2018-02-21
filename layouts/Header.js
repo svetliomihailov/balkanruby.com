@@ -11,9 +11,9 @@ export default () => (
           </a>
 
           <nav className="lead-navigation">
+            <a href="/speakers">Speakers</a>
+            <a href="/sponsors">Partners</a>
             <a href="/">Blog</a>
-            <a href="https://goo.gl/forms/uvxE2CR7I3fwYCtl2" target="_blank">Submit your talk</a>
-            <a href="/sponsors">Become a partner</a>
           </nav>
         </div>
       </div>

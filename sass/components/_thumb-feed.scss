@@ -1,0 +1,21 @@
+.thumb-feed {
+  h3 { margin-bottom: 0; }
+  img {
+    display: block;
+    position: relative;
+    top: 10px;
+  }
+
+  p:last-child { margin-bottom: 0; }
+
+  .meta {
+    margin-bottom: $gutter;
+    font-size: .85em;
+  }
+
+  .thumb {
+    margin-bottom: $gutter;
+
+    &:last-child { margin-bottom: 0; }
+  }
+}
