@@ -13,7 +13,7 @@ export default () => (
           <nav className="lead-navigation">
             <a href="/speakers">Speakers</a>
             <a href="/sponsors">Partners</a>
-            <a href="/">Blog</a>
+            <a href="/blog">Blog</a>
           </nav>
         </div>
       </div>
