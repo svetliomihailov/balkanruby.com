@@ -15,7 +15,7 @@ export default () => (
           <h1>Introducing Balkan Ruby</h1>
           <div className="meta">
             19 December 2017 //{' '}
-            <a href="http://twitter.com/gsamokovarov" target="_blank">
+            <a href="https://twitter.com/gsamokovarov" target="_blank">
               Genadi
             </a>
           </div>
@@ -35,11 +35,11 @@ export default () => (
             <p>
               We don’t get many Ruby conferences in our part of the world. In
               fact, we didn’t have any until we hosted{' '}
-              <a href="http://euruko2016.org" target="_blank">
+              <a href="https://euruko2016.org" target="_blank">
                 EuRuKo in 2016
               </a>. With the community in town and the fun it brought, we wanted
               to organize more local Ruby events. In 2017, we were focused on{' '}
-              <a href="http://partialconf.com" target="_blank">
+              <a href="https://partialconf.com" target="_blank">
                 Partial
               </a>, the first functional conference in Bulgaria. In 2018, we
               want to bring that Ruby conference to life.
@@ -91,7 +91,7 @@ export default () => (
             <p>
               In the coming weeks we’ll announce more details about the venue
               and the tickets.{' '}
-              <a href="http://twitter.com/balkanruby">Follow us on Twitter</a>,
+              <a href="https://twitter.com/balkanruby">Follow us on Twitter</a>,
               or <a href="/">subscribe to the newsletter</a>. If you have any
               questions drop us a line at{' '}
               <a href="mailto:hi@balkanruby.com">hi@balkanruby.com</a>

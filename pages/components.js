@@ -31,15 +31,15 @@ export default () => (
     <Pattern title="Slider" description="Simple slider gallery">
       <Slider>
         <Slider.Slide>
-          <img src="http://placehold.it/1920x1080" />
+          <img src="https://placehold.it/1920x1080" />
         </Slider.Slide>
 
         <Slider.Slide>
-          <img src="http://placehold.it/1920x1080" />
+          <img src="https://placehold.it/1920x1080" />
         </Slider.Slide>
 
         <Slider.Slide>
-          <img src="http://placehold.it/1920x1080" />
+          <img src="https://placehold.it/1920x1080" />
         </Slider.Slide>
       </Slider>
     </Pattern>

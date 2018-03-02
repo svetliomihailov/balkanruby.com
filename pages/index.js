@@ -84,7 +84,7 @@ export default () => (
 
       <Speaker
         name="Robert Mosolgo"
-        website="http://rmosolgo.github.io/"
+        website="https://rmosolgo.github.io/"
         avatar="/static/images/speakers/rmosolgo.png"
       >
         GitHub
@@ -103,7 +103,7 @@ export default () => (
           key={idx}
           name="Coming soon"
           website="/speakers"
-          avatar="http://placehold.it/540x540?text=TBA"
+          avatar="https://placehold.it/540x540?text=TBA"
         >
           ...
         </Speaker>
@@ -134,7 +134,7 @@ export default () => (
               </h3>
               <div className="meta">
                 by{' '}
-                <a href="http://twitter.com/vestimir" target="_blank">
+                <a href="https://twitter.com/vestimir" target="_blank">
                   Vestimir
                 </a>
               </div>
@@ -151,7 +151,7 @@ export default () => (
               </h3>
               <div className="meta">
                 by{' '}
-                <a href="http://twitter.com/gsamokovarov" target="_blank">
+                <a href="https://twitter.com/gsamokovarov" target="_blank">
                   Genadi
                 </a>
               </div>
@@ -167,7 +167,7 @@ export default () => (
               </h3>
               <div className="meta">
                 by{' '}
-                <a href="http://twitter.com/gsamokovarov" target="_blank">
+                <a href="https://twitter.com/gsamokovarov" target="_blank">
                   Genadi
                 </a>
               </div>

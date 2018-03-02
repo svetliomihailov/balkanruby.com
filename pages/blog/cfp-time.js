@@ -15,7 +15,7 @@ export default () => (
           <h1>CFP Time</h1>
           <div className="meta">
             8 January 2018 //{' '}
-            <a href="http://twitter.com/gsamokovarov" target="_blank">
+            <a href="https://twitter.com/gsamokovarov" target="_blank">
               Genadi
             </a>
           </div>

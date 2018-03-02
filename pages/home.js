@@ -57,7 +57,7 @@ export default () => (
               </h3>
               <div className="meta">
                 by{' '}
-                <a href="http://twitter.com/gsamokovarov" target="_blank">
+                <a href="https://twitter.com/gsamokovarov" target="_blank">
                   G. Samokovarov
                 </a>
               </div>
@@ -141,7 +141,7 @@ export default () => (
           </div>
           <div className="right-col">
             launched by{' '}
-            <a href="http://raketadesign.com" target="_blank">
+            <a href="https://raketadesign.com" target="_blank">
               raketa
             </a>
           </div>

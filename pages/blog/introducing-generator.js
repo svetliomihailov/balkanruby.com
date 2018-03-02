@@ -16,7 +16,7 @@ export default () => (
           <h1>The Venue</h1>
           <div className="meta">
             2 February 2018 //{' '}
-            <a href="http://twitter.com/vestimir" target="_blank">
+            <a href="https://twitter.com/vestimir" target="_blank">
               Vestimir
             </a>
           </div>
@@ -34,7 +34,7 @@ export default () => (
             </p>
 
             <p>
-              <a href="http://generatorsofia.com" target="_blank">Generator</a> opened its hall last year in the renovated Vitosha Factory. It is a playground for collaboration, inspiration and experience sharing between creatives, businesses and the public sector. Over the past few months Generator has hosted several workshops and meetups and we really liked the vibe of the place. It is a bright hall with lots of natural light, huge screen and functional, cozy interior.
+              <a href="https://generatorsofia.com" target="_blank">Generator</a> opened its hall last year in the renovated Vitosha Factory. It is a playground for collaboration, inspiration and experience sharing between creatives, businesses and the public sector. Over the past few months Generator has hosted several workshops and meetups and we really liked the vibe of the place. It is a bright hall with lots of natural light, huge screen and functional, cozy interior.
             </p>
           </div>
         </div>
@@ -93,7 +93,7 @@ export default () => (
 
             <p>
               <em>
-                For the latest information about Balkan Ruby <a href="http://twitter.com/balkanruby" target="_blank">follow us on Twitter</a>, or <a href="/#newsletter">subscribe to our newsletter</a>. We will have some great news to share with you in the coming weeks.
+                For the latest information about Balkan Ruby <a href="https://twitter.com/balkanruby" target="_blank">follow us on Twitter</a>, or <a href="/#newsletter">subscribe to our newsletter</a>. We will have some great news to share with you in the coming weeks.
               </em>
             </p>
           </div>

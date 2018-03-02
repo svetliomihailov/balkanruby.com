@@ -25,19 +25,19 @@ const ThumbFeed = ({ list }) => (
 ThumbFeed.defaultProps = {
   list: [
     {
-      image: 'http://placehold.it/400x300',
+      image: 'https://placehold.it/400x300',
       link: '#',
       title: 'Article Title',
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate voluptatibus, doloribus modi perspiciatis dicta eius mollitia minus assumenda, iusto placeat culpa aliquam iure obcaecati distinctio commodi sequi vitae sapiente non.',
     },
     {
-      image: 'http://placehold.it/400x300',
+      image: 'https://placehold.it/400x300',
       link: '#',
       title: 'Article Title',
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate voluptatibus, doloribus modi perspiciatis dicta eius mollitia minus assumenda, iusto placeat culpa aliquam iure obcaecati distinctio commodi sequi vitae sapiente non.',
     },
     {
-      image: 'http://placehold.it/400x300',
+      image: 'https://placehold.it/400x300',
       link: '#',
       title: 'Article Title',
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate voluptatibus, doloribus modi perspiciatis dicta eius mollitia minus assumenda, iusto placeat culpa aliquam iure obcaecati distinctio commodi sequi vitae sapiente non.',

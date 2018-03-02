@@ -36,7 +36,7 @@ export default () => (
               </h3>
               <div className="meta">
                 by{' '}
-                <a href="http://twitter.com/vestimir" target="_blank">
+                <a href="https://twitter.com/vestimir" target="_blank">
                   Vestimir
                 </a>
               </div>
@@ -53,7 +53,7 @@ export default () => (
               </h3>
               <div className="meta">
                 by{' '}
-                <a href="http://twitter.com/gsamokovarov" target="_blank">
+                <a href="https://twitter.com/gsamokovarov" target="_blank">
                   Genadi
                 </a>
               </div>
@@ -69,7 +69,7 @@ export default () => (
               </h3>
               <div className="meta">
                 by{' '}
-                <a href="http://twitter.com/gsamokovarov" target="_blank">
+                <a href="https://twitter.com/gsamokovarov" target="_blank">
                   Genadi
                 </a>
               </div>
