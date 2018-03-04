@@ -6,7 +6,7 @@ const Speaker = ({ name, avatar, website, children }) => (
         <h4>
           <a href="/speakers" className="card">{name}</a>
         </h4>
-        <p>{children}</p>
+        {children}
       </div>
     </div>
   </div>

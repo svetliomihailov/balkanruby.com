@@ -1,7 +1,7 @@
 const Navigation = ({ list }) => (
   <div className="container">
     <nav className="navigation">
-      {list.map((item, idx) => <a href={item.link}>{item.label}</a>)}
+      {list.map((item, idx) => <a key={idx} href={item.link}>{item.label}</a>)}
     </nav>
   </div>
 );

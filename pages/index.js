@@ -7,6 +7,7 @@ import SectionTitle from '../patterns/SectionTitle';
 import Speaker from '../patterns/Speaker';
 import Speakers from '../patterns/Speakers';
 import Navigation from '../patterns/Navigation';
+import store from '../store';
 
 const NAV = {
   list: [
@@ -31,7 +32,7 @@ export default () => (
       <div className="lead-header">
         <div className="hero">
           <img src="/static/assets/balkanruby-header-logo.svg" alt="Balkan Ruby" className="logo" />
-          <p>25 – 26 May 2018, Sofia, Bulgaria</p>
+          <p>25 – 26 May 2018; Sofia, Bulgaria</p>
           <a href="#newsletter" className="btn-primary lg">Subscribe</a>
         </div>
 
@@ -74,38 +75,14 @@ export default () => (
     <br/>
 
     <Speakers theme="blank" spacing="spacing-bottom">
-      <Speaker
-        name="Zach Holman"
-        website="https://zachholman.com"
-        avatar="/static/images/speakers/holman.png"
-      >
-        CEO, During
-      </Speaker>
-
-      <Speaker
-        name="Robert Mosolgo"
-        website="https://rmosolgo.github.io/"
-        avatar="/static/images/speakers/rmosolgo.png"
-      >
-        GitHub
-      </Speaker>
-
-      <Speaker
-        name="Nick Sutterer"
-        website="https://apotonick.wordpress.com"
-        avatar="/static/images/speakers/nick.jpg"
-      >
-        Trailblazer
-      </Speaker>
-
-      {[1,2,3,4,5,6,7,8,9,10,11].map((idx) =>
+      {store.speakers.map((speaker, idx) =>
         <Speaker
           key={idx}
-          name="Coming soon"
-          website="/speakers"
-          avatar="https://placehold.it/540x540?text=TBA"
+          name={speaker.name}
+          website={speaker.link}
+          avatar={speaker.image}
         >
-          ...
+          <p>{speaker.talk}</p>
         </Speaker>
       )}
     </Speakers>
