@@ -79,7 +79,7 @@ export default () => (
         <Speaker
           key={idx}
           name={speaker.name}
-          website={speaker.link}
+          link={`/speakers#${idx}`}
           avatar={speaker.image}
         >
           <p>{speaker.talk}</p>

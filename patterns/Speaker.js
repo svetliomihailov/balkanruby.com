@@ -1,10 +1,10 @@
-const Speaker = ({ name, avatar, website, children }) => (
+const Speaker = ({ name, avatar, link, children }) => (
   <div className="fourth">
     <div className="speaker">
-      <a href="/speakers"><img src={avatar} alt={name} /></a>
+      <a href={link}><img src={avatar} alt={name} /></a>
       <div className="content">
         <h4>
-          <a href="/speakers" className="card">{name}</a>
+          <a href={link} className="card">{name}</a>
         </h4>
         {children}
       </div>

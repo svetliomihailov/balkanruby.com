@@ -1,5 +1,5 @@
-const Thumb = ({ title, description, link, image }) => (
-  <div className="grid thumb">
+const Thumb = ({ id, title, description, link, image }) => (
+  <div id={id} className="grid thumb">
     <div className="fourth">
       <img src={image} alt={title} />
     </div>
@@ -16,33 +16,9 @@ const Thumb = ({ title, description, link, image }) => (
 const ThumbFeed = ({ list }) => (
   <div className="thumb-feed">
     <div className="container">
-      {list.map((item, idx) =>
-        <Thumb key={idx} {...item} />)}
+      {list.map((item, idx) => <Thumb id={idx} key={idx} {...item} />)}
     </div>
   </div>
 );
-
-ThumbFeed.defaultProps = {
-  list: [
-    {
-      image: 'https://placehold.it/400x300',
-      link: '#',
-      title: 'Article Title',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate voluptatibus, doloribus modi perspiciatis dicta eius mollitia minus assumenda, iusto placeat culpa aliquam iure obcaecati distinctio commodi sequi vitae sapiente non.',
-    },
-    {
-      image: 'https://placehold.it/400x300',
-      link: '#',
-      title: 'Article Title',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate voluptatibus, doloribus modi perspiciatis dicta eius mollitia minus assumenda, iusto placeat culpa aliquam iure obcaecati distinctio commodi sequi vitae sapiente non.',
-    },
-    {
-      image: 'https://placehold.it/400x300',
-      link: '#',
-      title: 'Article Title',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate voluptatibus, doloribus modi perspiciatis dicta eius mollitia minus assumenda, iusto placeat culpa aliquam iure obcaecati distinctio commodi sequi vitae sapiente non.',
-    },
-  ],
-};
 
 export default ThumbFeed;
