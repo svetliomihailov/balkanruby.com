@@ -374,7 +374,7 @@ const store = {
 
     {
       image: '/static/images/speakers/vodro.jpg',
-      link: 'https://chastell.net',
+      link: 'http://v0dro.in',
       name: 'Sameer Deshmukh',
       company: 'Tokyo Insitute of Technology',
       bio: `
