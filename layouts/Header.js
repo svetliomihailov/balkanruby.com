@@ -14,6 +14,7 @@ export default () => (
             <a href="/speakers">Speakers</a>
             <a href="/sponsors">Partners</a>
             <a href="/blog">Blog</a>
+            <a href="/tickets">Tickets</a>
           </nav>
         </div>
       </div>

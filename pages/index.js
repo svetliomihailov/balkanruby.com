@@ -23,6 +23,10 @@ const NAV = {
       label: 'Blog',
       link: '/blog',
     },
+    {
+      label: 'Tickets',
+      link: '/tickets'
+    }
   ],
 };
 
@@ -86,6 +90,18 @@ export default () => (
         </Speaker>
       )}
     </Speakers>
+
+    <Container theme="blank" spacing="spacing-both">
+      <div className="container">
+        <div className="grid">
+          <div className="shift-2">
+            <div className="section-title">
+              <a href="/tickets" className="btn-primary lg">Get your Ticket</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </Container>
 
     <Container theme="light-bg" spacing="spacing-both">
       <div className="container">
