@@ -8,6 +8,7 @@ module.exports = {
       '/sponsors': { page: '/sponsors' },
       '/speakers': { page: '/speakers' },
       '/blog': { page: '/blog' },
+      '/tickets': { page: '/tickets' }
     };
   },
 };
